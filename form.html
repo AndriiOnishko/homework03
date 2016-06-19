@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <form id="application-form" method="POST" action="">
+            <fieldset>
+                <legend>Application Form</legend>
+                name:<input type="text" id="name" name="name" required placeholder="name" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"/>
+                <br>
+                <br>
+                e-mail:<input type="email" id="email" name="email" required placeholder="email">
+                <br>
+                <br>
+                Male<input type="radio" name="sex" required/>
+                Female<input type="radio" name="sex" required/>
+                <br>
+                <br>
+                Age<select name="age" required>
+                    <option>18-30</option>
+                    <option>30-40</option>
+                    <option>40-50</option>
+                    <option>50-60</option>
+                    <option>60+</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit">
+                <input type="reset" name=""/>
+            </fieldset>
+        </form>
+        <a href="index.html">BACK</a>    
+    </body>
+</html>
